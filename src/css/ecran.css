@@ -1,0 +1,18 @@
+@media screen and (max-width: 900px) {
+/* Css pour les smartphones */
+balise1 {
+propriete: valeur;
+propriete: valeur;
+}}
+
+
+
+
+
+
+
+@media screen and (min-width: 900px){
+balise2 {
+propriete: valeur;
+propriete: valeur;
+}}

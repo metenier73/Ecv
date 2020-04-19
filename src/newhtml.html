@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->   
+   <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Document sans nom</title>
+
+
+<style type="text/css">
+#menu{ width: 200px; height : 100px; margin: 100px; }
+
+.sousmenu{ width: 450px; height : 200px; border: 1px solid; margin-top: -50px; background-color: blue;}
+
+.menu a{display:block; }
+
+.sousmenu a{ display: block; font-family: helvetica,sans-serif; font-size: 9pt; }
+</style>
+
+
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+function afficheMenu(obj){ var idMenu = obj.id; var idSousMenu = 'sous' + idMenu; var sousMenu = document.getElementById(idSousMenu); /*****************************************************/ /** si le sous-menu correspondant au menu cliqué **/ /** est caché alors on l'affiche, sinon on le cache **/ /*****************************************************/ if(sousMenu.style.display == "none"){ sousMenu.style.display = "block"; } else{ sousMenu.style.display = "none"; } }//--><!]]></script>
+
+</head>
+
+
+<body>
+
+<div id="menu">
+    <div class="menu" id="menu1" onclick="afficheMenu(this)">
+        <a href="#">ici mon lien cliquable</a>
+    </div>
+    <div id="sousmenu1" style="display:none">
+        <div class="sousmenu">
+            <a>ici mon bloc de texte qui disparait lorsque la souris n'est plus dessus</a>
+        </div>
+    </div>
+   
+</body>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</html>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr" dir="ltr">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="author" content="METENIER Myriam" />
+  <meta name="keywords" content="développeur, cv" />
+  <meta name="description" content="Mon Cv électronique" />
+  <meta name="date" content="2018-08-04T12:10:15+01:00" />
+  <meta name="copyright" content="Arrobe" />
+  <link rel="shortcut icon" type="image/x-icon" href="boutiqueIcon.ico" /> 
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  <link rel="stylesheet" href="css/web fonts/cacchampagne_regular_macroman/stylesheet.css" type="text/css" />
+  <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+  <title>CV électronique</title>
+  </head>
+    <body>
+	<header>
+        <div id="wrapper">
+             <!-- Menu horizontal  -->
+            <div id="nav">
+            <div id="nav1">
+                <ul>
+                    <li>
+                        <a href="..\src\pageCentral.html"> Accueil</a>
+                    </li>
+
+                    <li>
+                        <a href="..\src\SavoirEtre.html"> Savoir</a>
+                    </li>
+                    <li>
+                        <a href="..\src\savoirFaire.html"> Savoir-faire</a>
+                    </li>
+                    <li>
+                        <a href="..\src\contact.html"> Contact</a>
+                    </li>
+                    <li>
+                        <a href="blog\index.html"> Blog</a>
+                    </li>
+                </ul>
+            </div> <br>
+            <!-- fin du menu horizontal -->
+            </div>
+        </header>
+        <div id="header1"></div>
+        
+		<div id="bg" style="margin: 50px 500px 100px">
+            <h1>Enregistrement Client</h1>
+	
+			<form method="post" action="traitement.php">
+			<fieldset>
+				<legend>Vos coordonnées</legend> <!-- Titre du fieldset --> 
+
+				<label for="societe"> Nom de votre société :</label>
+				<input type="text" name="societe" id="societe" size="30" autofocus /><br /><br />
+		
+				<label for="civilite" >Civilité :</label>
+					<select name="civilite" id="civilite">
+					<option value="MMe">MME</option>
+					<option value="Mlle">Mlle</option>
+					<option value="Mr">Mr</option>
+					</select><br /><br />
+				<label for="nom"> Nom :</label>
+				<input type="text" name="nom" id="nom" placeholder="Ex : Zozor" required /><br /><br />
+				<label for="prenom"> Prénom :</label>
+				<input type="text" name="prenom" id="prenom" required /><br /><br />
+				<label for="date"> Date Naissance :</label>
+				<input type="date" name="date" id="date" required /><br /><br />
+				<label for="pays">Nationalité :</label>
+					<select name="pays" id="pays">
+						<optgroup label="Europe">
+							<option value="france" selected>France</option>
+							<option value="espagne">Espagne</option>
+							<option value="italie">Italie</option>
+							<option value="royaume-uni">Royaume-Uni</option>
+							<option value="Autre">Autre</option>
+							
+						</optgroup>
+						<optgroup label="Amérique">
+							<option value="canada">Brazile</option>
+							<option value="etats-unis">Etats-Unis</option>
+							<option value="Autre">Autre</option>
+						</optgroup>
+						<optgroup label="Asie">
+							<option value="chine">Chine</option>
+							<option value="japon">Japon</option>
+							<option value="Autre">Autre</option>
+						</optgroup>
+					</select> <br /><br />
+				<label for="address"> Adresse : </label>
+				<input type="text" name="adresse" id="adresse" size="60" required /><br /><br />
+				<label for="codePostal">Code Postal :</label>
+				<input type="text" name="codePostal" id="codePostal" size="5" required /><br /><br />
+				<label for="localite">Localité : </label>
+				<input type="text" name="localite" id="localite" size="30" maxlength="20"/><br /><br />
+				<label for="tel"> Téléphone : </label>
+				<input type="tel" name="tel" id="tel" required /><br /><br />
+				<label for="email"> e-mail : </label>
+				<input type="email" name="email" id="email" /><br /><br />
+			</fieldset>
+			
+				<p>
+				<label for="ameliorer">Comment pensez-vous que je puisse améliorer mon site ? </label><br />
+				<textarea name="ameliorer" id="ameliorer" rows="3" 		cols="80"></textarea>
+				</p>
+				<p>
+				<label for="pseudo">Votre pseudo : </label>
+				<input type="text" name="pseudo" id="pseudo" /> 
+				</p>
+				<p>
+				<label for="pass">Votre mot de passe : </label>
+				<input type="password" name="pass" id="pass" />
+
+				</p>
+				<p><input type="reset" value="Annuler" /> <input type="submit" value="Envoyer" /></p>
+			
+			</form>
+	</div>
+			
+	
+   
+    </div> 
+	
+	<script>
+	<!--
+	
+      // Gestion de la fermeture de la page web
+	window.addEventListener("beforeunload", function (e) {
+    var message = "On est bien ici !";
+    e.returnValue = message; // Provoque une demande de confirmation (standard)
+    return message; // Provoque une demande de confirmation (certains navigateurs)
+	});
+	<!--
+	
+	</script>
+	
+	
+    </body>
+</html>

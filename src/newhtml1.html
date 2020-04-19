@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+    <html>
+        <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <title></title>
+        </head>
+        <body>
+            <script type="text/javascript" src="http://www.google.com/jsapi?key=VOTRE_CLE"></script>
+            <script type="text/javascript">google.load("jquery", "1.7");</script>
+            <script type="text/javascript">
+                $(document).ready (function (){
+                    var text_cpt = 0;
+                    //A éventuellement remplir par appel AJAX...
+                    var tab_text = ["text 1 ","text 2","text 3","text 4"];
+     
+                    text_function ();
+     
+                    function text_function ()
+                    {
+                        $("#container").html(tab_text[text_cpt]);
+                            text_cpt = (text_cpt + 1) % tab_text.length;
+                        setTimeout (text_function,5000);
+                    }
+                });
+            </script>
+            <div id="container"></div>
+        </body>
+    </html>
+

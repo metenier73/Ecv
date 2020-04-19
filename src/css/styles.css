@@ -1,0 +1,530 @@
+@font-face {
+    font-family: 'cac_champagneregular';
+    src: url('cac_champagne-webfont.eot');
+    src: url('cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cac_champagne-webfont.woff2') format('woff2'),
+         url('cac_champagne-webfont.woff') format('woff'),
+         url('cac_champagne-webfont.ttf') format('truetype'),
+         url('cac_champagne-webfont.svg#cac_champagneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a:link, a:visited {
+	color:navy;
+	text-decoration:none;
+}
+a:active /* Quand le visiteur clique sur le lien */
+{
+    background-color: gray;
+}
+a:hover {
+	color:gray;
+	text-decoration:underline;
+}
+
+
+#banner {
+	margin: 0px ;
+	height:auto;
+	width:auto;
+}
+
+#menu{ display: column; width: auto; height : auto; margin: auto;text-align:left; }
+#menuA{ display: inline; width: auto; height : auto; margin: auto;text-align:left; }
+
+
+
+
+html {
+	background:#FFFF;
+	margin:auto;
+	padding:auto;	
+	
+}
+
+
+body {
+	padding:auto;
+	margin:auto;
+	display:flex; 
+	width:auto;	
+	color:black;
+	font-family: Helvetica, Arial, sans-serif ;
+	font-size: 15px;
+	font-style: normal ;
+	font-weight: normal ;
+	text-transform: none;
+	background-repeat:no-repeat;
+	 overflow: scroll;
+	
+}
+
+
+#bg {
+	margin:auto;
+	padding:auto ;
+	background:transparent ;
+ 	display:block;	
+	background-position: auto;
+	font-family: Helvetica, Arial, sans-serif ;
+        text-align:Left;
+        color:black;
+         width:auto;
+}
+#bg1 {
+	margin:auto;
+	padding:auto ;
+	background:transparent ;
+ 	display:flex;	
+	background-position: auto;
+	font-family: Helvetica, Arial, sans-serif ;
+        text-align:Left;
+        color:black;
+         width:auto;
+}
+
+/*taille position de la page site*/
+#content {
+
+	width:auto;
+	 margin:auto;
+	text-align:left;
+	min-height:auto;
+	list-style:none;
+	background-position: auto;
+	height:auto;
+	
+}
+
+#center {
+	width:auto;	
+	padding:auto;
+	float:auto;
+	margin:auto; 
+}
+#content p {
+	text-align:center;
+	display:inline;
+	float:auto;
+	
+	
+} 
+#container {
+   display: flex;
+	text-align:left;
+	
+}
+#container1 {
+   display: flex;
+
+	margin: auto;
+	width:auto; 
+	text-align:left;
+	visibility: hidden;
+}
+.blue {
+            background: black;
+            color: white;
+        }
+select {
+   display: flex;
+	margin: auto;
+	width:auto; 
+	height:auto;
+	text-align:left;
+	
+	 overflow: hidden;
+}
+.element{
+	font-family:  Arial, sans-serif ;	
+	font-style: normal ;
+	font-variant:normal;
+	list-style-position:outside;
+	font-size: 15px;
+	
+		align-items:left;
+		font-weight:none;
+		font-style:normal;
+		
+	color:black; 
+	font: normal;
+}
+
+.element:hover >.infoBulle{
+	
+	transform :scale(1) rotateX(180deg);
+	margin-left:auto;
+	
+}
+
+#footerWrapper {
+    width:auto;
+	margin:auto;
+	height:30px;
+	padding:auto;
+	background:transparent url("/image/footerWrapper-bg.jpg") no-repeat scroll center top ;
+	text-align:center;
+}
+
+#footer {
+	margin:auto;
+	padding:auto;
+	width:auto;
+	height:auto;
+	color:grey;
+	text-align:center;
+}
+
+#footer a:link, #footer a:visited {
+	color:grey;
+}
+
+#footer a:hover{
+	color:#ffb508;
+	text-decoration:none;
+}
+
+//*Page Droite*/
+#header {
+    display:block;
+	margin:auto;
+	width: auto;
+	height:auto;
+
+}
+
+//Page principal
+#header1 {
+    display: block;
+	margin:auto;
+	min-height:auto;
+	width: auto;
+	height:auto;
+
+}
+
+
+
+h1 {
+	
+	font-family: 'cac_champagneregular','cac_champagne-webfont', Helvetica, Arial, sans-serif ;
+	color:black;
+	font-size:60px  ;
+	margin:10px;
+	clear:both;
+	padding:auto;
+	text-decoration :blink;
+	text-align:center;
+        
+}
+
+
+h2 {
+	font-family: 'cac_champagneregular','cac_champagne-webfont',Helvetica, Arial, sans-serif ;
+	color:black;
+	font-size:30px ;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	
+}
+
+
+h3 {
+	 font-family: 'cac_champagneregular','cac_champagne-webfont',Helvetica, Arial, sans-serif ;
+	color:black;
+	font-size:23px ;
+	margin:auto;
+	clear:both;
+	text-align:left;
+	
+}
+
+h4 {
+	 font-family: 'cac_champagneregular','cac_champagne-webfont', Helvetica, Arial, sans-serif ;
+	color:black;
+	font-size:22px ;
+	margin:auto;
+	clear:both;
+	text-align:left;
+}
+
+h6 {
+	
+	font-family: 'cac_champagne-webfont', Helvetica, Arial, sans-serif ;
+	color:black;/*#6397cc;*/
+	font-size:20px  ;
+	margin:auto;
+	clear:both;
+	padding:auto;
+	text-decoration :blink ;
+	text-align:center;
+        
+}
+ h7 {
+	
+	font-family: 'cac_champagne-webfont', Helvetica, Arial, sans-serif ;
+	color:black;/*#6397cc;*/
+	font-size:18px  ;
+	margin:auto;
+	clear:both;
+	padding:auto;
+	text-decoration :blink ;
+	text-align:center;
+        
+}
+ 
+
+
+p {
+	display:inline-table;
+	font-family: Helvetica, Arial, sans-serif ;
+	margin:auto ;
+	font-size:15px;
+	color:black;
+	letter-spacing: normal ;
+	padding:auto;
+	text-align:left;
+	word-wrap: break-word;
+    width:100%;
+	list-style-type: space-counter;
+		 
+}
+#p1 {
+	font-family: Helvetica, Arial, sans-serif ;
+	margin:40px ;
+	font-size:15px;
+	color:black;
+	letter-spacing: normal ;
+	padding:auto;
+	text-align:center;
+
+}
+#p2 {
+	font-family: Helvetica, Arial, sans-serif ;
+	margin:40px  ;
+	font-size:15px;
+	color:black;
+	letter-spacing: normal ;
+	padding:auto;
+	text-align:left;
+}
+#p3 {
+	font-family: Helvetica, Arial, sans-serif ;
+	margin: 60px;
+	font-size:15px;
+	color:black;
+	letter-spacing: normal ;
+	padding:auto;
+	text-align:left;
+}
+#p4 {
+	font-family: Helvetica, Arial, sans-serif ;
+	margin:auto ;
+	font-size:15px;
+	color:black;
+	letter-spacing: normal ;
+	padding:auto;
+	text-align:left;
+}
+#p5 {
+	font-family: Helvetica, Arial, sans-serif ;
+	margin:auto;
+	font-size:15px;
+	color:black;
+	letter-spacing: normal ;
+	padding:auto;
+	text-align:center;
+     display:block;
+}
+#page {
+     display:block;
+    background:transparent url("/image/pic10.jpg") no-repeat center top;
+    width:100%;
+    margin:auto;
+    
+}
+
+span {
+	text-align:center;
+    display: inline-table;
+	margin:auto;
+    flex-direction: row;
+	background-position:center;
+}
+
+
+img{
+	border:none;
+	float:center;
+	text-align:center;
+	flex-direction:column;
+	justify-content: center;
+}
+
+.imageFlottante{
+	float: center;
+	margin:20px;
+}
+.infoBulle{
+transform : scale(0) rotateX(-180deg);
+position : absolute;
+background-color : #2e3048;
+color : white;
+border-radius : 5px;
+padding : 8px ;
+margin-top : 10px;
+box-shadow : 1px 1px 0 0.5px rgba(0,0,0,0.3);
+border-bottom : 3px solid rgba(255,255,255,0.3);
+ border-left:10px solid transparent;
+ border-right: 10px solid transparent;
+ transition: 1s;
+
+}
+
+.infoBulle::before{
+	content:'';
+	position:absolute;
+	border-bottom:8px solid #2e3048;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	margin-top:-16px;
+	margin-left:10px;	
+	
+}
+
+
+
+
+
+li{
+    
+    list-style-type:square;
+}
+
+
+mark{
+	 color: clear green;
+}
+
+nav {
+	display: inline-table;
+	flex-direction: column;
+	padding-top: auto;
+	height:auto;
+	margin:auto;
+	width:auto;	
+	text-align:left;
+	
+}
+
+/*page de gauche*/
+nav2 {
+	display:flex;
+	padding-top: auto;
+	height:auto;
+	margin:auto;
+	width:auto;	
+	text-align:center;
+	flex-direction:column;
+	
+       
+}
+
+/*position menus ds la page*/
+#nav1 {
+	display:inline-table;
+	flex-direction:inline-table;
+	padding:auto  ;
+	height:auto;
+	margin: 100px -500px 0px 0px;//100px 0px 0px 0px;150px -35px 250px 100px*/
+	width:auto;	
+	text-align:center;
+	justify-content: center;
+	flex-wrap: wrap;
+       
+}
+
+#nav1 ul {
+	display:inline-table;
+	min-width:auto;	
+	margin: auto;
+	padding:auto;
+	list-style-type:none;
+	position:right;
+	height:4px;
+	text-transform:uppercase;
+	font-size:13px;
+    width:120px;
+       
+	
+}
+
+
+/*Menu translucide*/
+#nav1 ul li {
+	display:inline-table;
+	float:auto;
+	margin:3px;
+	padding:35px;
+	background:transparent url("/image/hmenu.jpg") repeat-x top right;
+	border-left:2px solid black ;
+        border-right:2px solid black ;
+	 border-style:inset;
+	 border-radius:30px / 60px;
+	padding-right:auto;
+	 box-shadow:2px 2px 2px 2px black  ;
+	 font-family:  sans-serif ;
+	 
+}
+
+/*taille des menus*/
+#nav1 ul li a {
+	display:flex;
+	float:auto;
+	color: black;
+	text-decoration:none;
+	padding:5px;
+	line-height:25px;
+	font-weight:bold;
+	margin: auto;
+
+
+}
+
+#nav1 ul li a:hover, #nav1 li#current a {
+	color:gray;
+	background:transparent url("image/hmenu-sel.jpg") repeat-x top right
+}	
+
+#span{
+	display:inline-table;
+	text-align:left;
+	 margin:auto;
+}
+
+u{
+   color:navy;
+}
+
+//Menu
+#wrapper {
+    display:flex
+	margin:auto;
+	background-position:center;   
+      overflow:auto; 
+
+}
+
+//Menu pied de page Droite
+#wrapper1 {
+	display:inline;
+	flex-direction: column;
+	margin:auto ;
+	width:auto;
+	background-position: center;
+	overflow:auto;
+	text-align:center;
+       
+}
